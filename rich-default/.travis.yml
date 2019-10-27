@@ -1,0 +1,11 @@
+language: python
+
+services:
+  - docker
+
+install:
+  - docker build -t default-env .
+  - docker run -d -p 127.0.0.1:80:80 --name default-env default-env
+
+script:
+  - docker ps | grep -q default-env
