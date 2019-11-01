@@ -234,7 +234,6 @@ RUN conda install -yq -c conda-forge jupyter-rsession-proxy && \
 RUN pip install git+https://github.com/cxhernandez/ipymol.git@2a30d6ec1588434e6f0f72a1d572444f89ff535b
 
 RUN pip install pypdb
-RUN pip install biopandas
 
 USER $NB_USER
 
