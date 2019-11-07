@@ -26,6 +26,7 @@ RUN apt-get update && \
     gfortran \
     gcc \
     octave \
+    texlive-full \
     octave-* && \
     rm -rf /var/lib/apt/lists/*
 
