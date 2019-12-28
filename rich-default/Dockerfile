@@ -237,6 +237,8 @@ RUN pip install pypdb
 
 USER $NB_USER
 
+WORKDIR $HOME
+
 
 # The following is an attempt to configure nb_conda_kernels automatically
 #WORKDIR $HOME

@@ -7,6 +7,8 @@ scientific computing from a variety of languages: Python, R, Octave, Sage,
 Julia, etc. These packages will be updated to the latest compatible versions on
 a quarterly basis.
 
+A change.
+
 At the moment, this repository contains two Jupyter environments.
 
 * **Minimum Default** contains all requested packages,
